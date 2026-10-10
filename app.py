@@ -76,7 +76,6 @@ def download_model():
                 id=GOOGLE_DRIVE_FILE_ID,
                 output=str(MODEL_PATH),
                 quiet=False,
-                fuzzy=True
             )
 
         if (
